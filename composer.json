@@ -1,0 +1,21 @@
+{
+    "name": "calmohallag/value-objects",
+    "description": "DDD value objects. Inspired on pccomponentes/ddd library",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "calmohallag",
+            "email": "calmohallag@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Calmohallag\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^8.0",
+        "ramsey/uuid": "^4.0"
+    }
+}
