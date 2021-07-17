@@ -46,6 +46,11 @@ abstract class CollectionValueObject implements \Iterator, \Countable, ValueObje
         return $this->current();
     }
 
+    public function first()
+    {
+        return $this->items[array_key_first($this->items)] ?? null;
+    }
+
     public function next(): void
     {
         \next($this->items);
